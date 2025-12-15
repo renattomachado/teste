@@ -51,13 +51,27 @@ import UserActions from '../redux/actions/UserActions';
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h2>Home</h2>
+      <div className="home-page">
+        <h2>StringArt Proof of Concept</h2>
+        <p>
+          Esta PoC transforma uma imagem em uma representação vetorial de StringArt,
+          permitindo configurar moldura, quantidade de pregos, espessura do fio e
+          ajustes de realce para facilitar a visualização dos traços.
+        </p>
 
-        <h3>Sitemap</h3>
-                    
-        
-            
+        <h3>Experimente</h3>
+        <p>
+          Acesse o <Link to="/string-art">StringArt Studio</Link> para carregar uma imagem,
+          gerar o mapa de bordas e visualizar o caminho sugerido das linhas.
+        </p>
+
+        <h3>O que está implementado</h3>
+        <ul>
+          <li>Conversão da imagem para tons de cinza com ajuste de brilho e contraste.</li>
+          <li>Filtro Sobel simples para destacar contornos antes de gerar o vetor.</li>
+          <li>Definição de molduras circulares, quadradas ou retangulares com número de pregos customizável.</li>
+          <li>Geração de um caminho sequencial de linhas e visualização direta no canvas.</li>
+        </ul>
       </div>
     );
   }

@@ -1,0 +1,2 @@
+# This intentionally empty lockfile lets the client project be installed independently
+# from the repository root when Yarn Berry is present higher in the tree.

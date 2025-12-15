@@ -1,0 +1,52 @@
+.string-art-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 12px 6px 32px;
+}
+
+.page-header {
+  margin-bottom: 8px;
+}
+
+.page-header .breadcrumb a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.page-header .breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.panel {
+  padding: 18px;
+  margin-bottom: 10px;
+}
+
+.canvas {
+  width: 100%;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 320px;
+}
+
+.vector-panel {
+  max-height: 320px;
+  overflow: auto;
+  padding: 8px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.vector-item {
+  font-size: 13px;
+  padding: 2px 0;
+  border-bottom: 1px dashed #eee;
+}
+
+.divider {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
